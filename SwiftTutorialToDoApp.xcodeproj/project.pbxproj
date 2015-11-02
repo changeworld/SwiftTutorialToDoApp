@@ -42,6 +42,8 @@
 		F631A2171BCBCC4700FAFF89 /* SwiftTutorialToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTutorialToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F631A21C1BCBCC4700FAFF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F631A21D1BCBCC4700FAFF89 /* SwiftTutorialToDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialToDoAppTests.swift; sourceTree = "<group>"; };
+		F653C39F1BE77D2C00815B32 /* SwiftTutorialTodoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTutorialTodoApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F653C3A01BE77FCC00815B32 /* SwiftTutorialToDoAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTutorialToDoAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				F631A2001BCBCC4600FAFF89 /* Products */,
 				DB1376AE559DA6287CB7C82E /* Pods */,
 				8AF0D1686410A95C32BFB8AB /* Frameworks */,
+				F653C3A01BE77FCC00815B32 /* SwiftTutorialToDoAppTests-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +113,7 @@
 				F631A2101BCBCC4600FAFF89 /* LaunchScreen.xib */,
 				F631A2061BCBCC4600FAFF89 /* SwiftTutorialToDoApp.xcdatamodeld */,
 				F631A2021BCBCC4600FAFF89 /* Supporting Files */,
+				F653C39F1BE77D2C00815B32 /* SwiftTutorialTodoApp-Bridging-Header.h */,
 			);
 			path = SwiftTutorialToDoApp;
 			sourceTree = "<group>";
@@ -423,6 +427,7 @@
 				INFOPLIST_FILE = SwiftTutorialToDoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/takebayashitakashi/Desktop/my/apps/xcode/SwiftTutorialToDoApp/SwiftTutorialToDoApp/SwiftTutorialTodoApp-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -434,6 +439,7 @@
 				INFOPLIST_FILE = SwiftTutorialToDoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/takebayashitakashi/Desktop/my/apps/xcode/SwiftTutorialToDoApp/SwiftTutorialToDoApp/SwiftTutorialTodoApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -441,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -452,6 +459,8 @@
 				INFOPLIST_FILE = SwiftTutorialToDoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTutorialToDoAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTutorialToDoApp.app/SwiftTutorialToDoApp";
 			};
 			name = Debug;
@@ -460,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -467,6 +477,7 @@
 				INFOPLIST_FILE = SwiftTutorialToDoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTutorialToDoAppTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTutorialToDoApp.app/SwiftTutorialToDoApp";
 			};
 			name = Release;
