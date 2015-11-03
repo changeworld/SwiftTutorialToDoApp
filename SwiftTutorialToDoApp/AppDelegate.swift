@@ -3,7 +3,7 @@
 //  SwiftTutorialToDoApp
 //
 //  Created by Takashi Takebayashi on 2015/10/12.
-//  Copyright (c) 2015年 takashi.takebayashi. All rights reserved.
+//  Copyright (c) 2015 takashi.takebayashi. All rights reserved.
 //
 
 import UIKit

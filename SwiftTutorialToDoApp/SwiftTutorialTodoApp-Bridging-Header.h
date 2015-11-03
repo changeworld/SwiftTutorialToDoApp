@@ -3,7 +3,7 @@
 //  SwiftTutorialToDoApp
 //
 //  Created by Takashi Takebayashi on 2015/11/02.
-//  Copyright (c) 2015年 takashi.takebayashi. All rights reserved.
+//  Copyright (c) 2015 takashi.takebayashi. All rights reserved.
 //
 
 #ifndef SwiftTutorialToDoApp_SwiftTutorialTodoApp_Bridging_Header_h
