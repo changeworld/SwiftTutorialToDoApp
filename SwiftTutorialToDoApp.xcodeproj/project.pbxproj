@@ -15,6 +15,7 @@
 		F631A20F1BCBCC4600FAFF89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F631A20E1BCBCC4600FAFF89 /* Images.xcassets */; };
 		F631A2121BCBCC4600FAFF89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F631A2101BCBCC4600FAFF89 /* LaunchScreen.xib */; };
 		F631A21E1BCBCC4700FAFF89 /* SwiftTutorialToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F631A21D1BCBCC4700FAFF89 /* SwiftTutorialToDoAppTests.swift */; };
+		F636EF281BEDDF6A00A7B0C7 /* ToDoListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F636EF271BEDDF6A00A7B0C7 /* ToDoListItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		F631A2171BCBCC4700FAFF89 /* SwiftTutorialToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTutorialToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F631A21C1BCBCC4700FAFF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F631A21D1BCBCC4700FAFF89 /* SwiftTutorialToDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialToDoAppTests.swift; sourceTree = "<group>"; };
+		F636EF271BEDDF6A00A7B0C7 /* ToDoListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListItemTableViewCell.swift; sourceTree = "<group>"; };
 		F653C39F1BE77D2C00815B32 /* SwiftTutorialTodoApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTutorialTodoApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		F653C3A01BE77FCC00815B32 /* SwiftTutorialToDoAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTutorialToDoAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				F631A2061BCBCC4600FAFF89 /* SwiftTutorialToDoApp.xcdatamodeld */,
 				F631A2021BCBCC4600FAFF89 /* Supporting Files */,
 				F653C39F1BE77D2C00815B32 /* SwiftTutorialTodoApp-Bridging-Header.h */,
+				F636EF271BEDDF6A00A7B0C7 /* ToDoListItemTableViewCell.swift */,
 			);
 			path = SwiftTutorialToDoApp;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				F631A20A1BCBCC4600FAFF89 /* ToDoListViewController.swift in Sources */,
 				F631A2051BCBCC4600FAFF89 /* AppDelegate.swift in Sources */,
+				F636EF281BEDDF6A00A7B0C7 /* ToDoListItemTableViewCell.swift in Sources */,
 				F631A2081BCBCC4600FAFF89 /* SwiftTutorialToDoApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
